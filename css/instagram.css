@@ -1,0 +1,69 @@
+.banner {
+  width: 100%;
+  font-size: 1.8em;
+  display: block;
+  float: left;
+  text-align: center;
+  margin: 50px 0;
+}
+.container {
+  width: 70%;
+  display: inline-block;
+  float: left;
+  height: 350px;
+  margin: 5px 15%;
+  border-radius: 3%;
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+.container .header {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+.container .header img {
+  display: inherit;
+  float: left;
+  width: 100%;
+  height: 140px;
+}
+.container .profile {
+  width: 40%;
+  margin: -20% 30%;
+  display: inline-block;
+}
+.container .profile img {
+  background: #FFF;
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #FFF;
+}
+.container .detail {
+  float: left;
+  width: 100%;
+  display: block;
+  height: 150px;
+}
+.container .detail .title {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+}
+.container .detail .content {
+  width: 80%;
+  padding: 1% 10%;
+  text-align: center;
+  font-size: 0.6em;
+}
+.container .detail .logo {
+  width: 40%;
+  margin: 0 30%;
+  display: block;
+  float: left;
+}
+.container .detail .logo .icon {
+  text-align: center;
+}
+.container .detail .logo a {
+  padding: 2%;
+}
